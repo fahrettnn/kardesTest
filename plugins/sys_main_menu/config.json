@@ -1,0 +1,23 @@
+{
+    "plugin_settings": 
+    {
+      "name":"Main Menu Plugin",
+      "id":"main-menu",
+      "version":"1.0.0",
+      "active":true,
+      "index":1,
+      "routes":
+      {
+        "on":["all"],
+        "off":["auth","api","logout","404"]
+      },
+      "dependencies": {},
+      "thumbnail":"thumbnail.jpg"
+    },
+    "developer":
+    {
+      "author":"Lovesta Inc",
+      "author_email":"info@lov-esta.com",
+      "author_website":"https://www.lov-esta.com"
+    }
+}

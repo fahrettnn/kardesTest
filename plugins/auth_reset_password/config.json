@@ -1,0 +1,23 @@
+{
+    "plugin_settings": 
+    {
+      "name":"Reset Password Plugin",
+      "id":"reset-password-plugin",
+      "version":"1.0.0",
+      "active":true,
+      "index":1,
+      "routes":
+      {
+        "on":["api","auth","reset-password"],
+        "off":["all"]
+      },
+      "dependencies": {},
+      "thumbnail":"thumbnail.jpg"
+    },
+    "developer":
+    {
+      "author":"Lovesta Inc",
+      "author_email":"info@lov-esta.com",
+      "author_website":"https://www.lov-esta.com"
+    }
+}

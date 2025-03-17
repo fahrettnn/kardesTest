@@ -1,0 +1,41 @@
+{
+    "name": "KardeşPay",
+    "short_name": "KardeşPay",
+    "icons": [
+      {
+        "src": "kardes/uploads/pwa/appicon/32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "kardes/uploads/pwa/appicon/48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "kardes/uploads/pwa/appicon/72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "kardes/uploads/pwa/appicon/96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "/kardes/uploads/pwa/appicon/144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "kardes/uploads/pwa/appicon/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#800000",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }

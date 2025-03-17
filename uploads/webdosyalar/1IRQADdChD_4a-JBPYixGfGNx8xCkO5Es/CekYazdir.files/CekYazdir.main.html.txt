@@ -1,0 +1,388 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name=Generator content="FastReport http://www.fast-report.com">
+<title>CekYazdir</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<style type="text/css"><!-- 
+.page_break { page-break-before:always; } 
+.s0 { font-weight:bold;font-style:normal;font-family:Arial;font-size:16px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s1 { font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s2 { font-style:normal;font-family:Arial;font-size:1px;color:#FFFFFF;background-color:transparent;text-align:Left;vertical-align:Top;overflow:hidden;border-collapse: separate;border-bottom:none;border-top-width:2px;border-top-color:#000000;border-top-style:dotted;border-left:none;border-right:none;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+.s3 { font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s4 { font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Right;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s5 { font-style:normal;font-family:Arial;font-size:1px;color:#FFFFFF;background-color:transparent;text-align:Left;vertical-align:Top;overflow:hidden;border-collapse: separate;border-bottom:none;border-top:none;border-left-width:0.25px;border-left-color:#B8860B;border-left-style:solid;border-right:none;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+.s6 { font-style:normal;font-family:Arial;font-size:1px;color:#FFFFFF;background-color:transparent;text-align:Left;vertical-align:Top;overflow:hidden;border-collapse: separate;border:none;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+.s7 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border-bottom-width:1px;border-bottom-color:#000000;border-bottom-style:solid;border-top-width:1px;border-top-color:#000000;border-top-style:solid;border-left-width:1px;border-left-color:#000000;border-left-style:solid;border-right-width:1px;border-right-color:#000000; border-right-style:solid;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s8 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border-bottom-width:1px;border-bottom-color:#000000;border-bottom-style:solid;border-top-width:1px;border-top-color:#000000;border-top-style:solid;border-left-width:1px;border-left-color:#000000;border-left-style:solid;border-right-width:1px;border-right-color:#000000; border-right-style:solid;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s9 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s10 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s11 { font-weight:bold;font-style:normal;font-family:Arial;font-size:12px;color:#000000;background-color:transparent;text-align:Center;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s12 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s13 { font-style:normal;font-family:Arial;font-size:1px;color:#FFFFFF;background-color:transparent;text-align:Left;vertical-align:Top;overflow:hidden;border-collapse: separate;border:none;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+.s14 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Top;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s15 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+.s16 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s17 { font-weight:bold;font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border-bottom:none;border-top:none;border-left-width:1px;border-left-color:#000000;border-left-style:solid;border-right:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s18 { font-style:normal;font-family:Arial;font-size:13px;color:#000000;background-color:transparent;text-align:Left;vertical-align:Middle;word-wrap:break-word;overflow:hidden;border-collapse: separate;border:none;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:0px;}
+.s19 { font-style:normal;font-family:Tahoma;font-size:11px;color:#FFFFFF;background-color:transparent;text-align:Left;vertical-align:Top;overflow:hidden;border-collapse: separate;border:none;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;}
+--></style>
+<a name="PageN1" style="padding:0;margin:0;font-size:1px;"></a><table width="791px;" border="0" cellspacing="0" cellpadding="0" style="border-collapse:separate;border:none;padding:0;margin:0;table-layout:fixed;" >
+<tr style="height: 1px"><td style="boder-collapse:separate;border:none;padding:0;" width="19px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="148px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="8px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="11px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="12px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="21px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="14px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="28px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="10px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="14px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="3px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="5px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="21px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="9px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="7px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="3px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="8px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="15px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="24px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="27px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="9px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="32px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="16px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="6px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="5px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="5px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="7px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="3px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="30px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="16px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="11px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="6px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="17px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="25px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="5px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="3px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="10px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="21px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="4px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="15px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="3px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="7px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="26px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="6px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="17px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="3px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="1px;"/><td style="boder-collapse:separate;border:none;padding:0;" width="2px;"/></tr>
+<tr style="height:28px;">
+<td colspan="86" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:12px;">
+<td colspan="6" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="21" rowspan="2" class="s0">ÖDEME GÜNÜ</td>
+<td colspan="8" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="2" class="s0">TUTARI (TL)</td>
+<td colspan="21" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="12" rowspan="2" class="s0">No.</td>
+<td colspan="5" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:7px;">
+<td rowspan="75" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="62" class="s6" style="font-size:1px;" nowrap ><img src="CekYazdir.BF6FF313A763F75C.png" alt=""/></td>
+<td colspan="4" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td colspan="21" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="12" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:24px;">
+<td colspan="2" rowspan="12" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="24" class="s7">26.02.2024</td>
+<td colspan="6" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="18" class="s8">#15000#</td>
+<td colspan="14" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="16" class="s8">1 / 1</td>
+<td colspan="4" rowspan="26" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:17px;">
+<td colspan="24" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="18" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="16" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="3" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="5" rowspan="5" class="s9">in</td>
+<td colspan="16" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="9" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="21" rowspan="5" class="s10">26.02.2024</td>
+</tr>
+<tr style="height:12px;">
+<td rowspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="26" rowspan="5" class="s1">İşte bu emre yazılı senedim</td>
+<td class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="7" rowspan="5" class="s3">Mukabilinde</td>
+<td rowspan="6" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="2" class="s4">Tarihinde</td>
+<td colspan="2" rowspan="22" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="2" class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="12" rowspan="3" class="s4" style="font-size:1px;">&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="2" rowspan="2" class="s1" style="font-size:1px;">&nbsp;</td>
+<td colspan="3" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="5" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="2" class="s4" style="font-size:1px;">&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="21" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td colspan="28" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="7" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="6" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="40" rowspan="7" class="s11">FİRMA İSMİ</td>
+<td colspan="15" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="5" rowspan="6" class="s9">sine</td>
+<td colspan="4" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:12px;">
+<td rowspan="61" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="6" rowspan="6" class="s1">Sayın :</td>
+<td colspan="2" rowspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="7" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="19" rowspan="6" class="s1">veyahut emrühavale</td>
+</tr>
+<tr style="height:1px;">
+<td rowspan="2" class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="3" rowspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+</tr>
+<tr style="height:1px;">
+<td rowspan="6" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+</tr>
+<tr style="height:2px;">
+<td colspan="40" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="2" class="s1" style="font-size:1px;">&nbsp;</td>
+<td colspan="3" rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td colspan="6" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="21" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td colspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="37" rowspan="3" class="s12">#OnBeşBin TL #</td>
+<td colspan="14" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:15px;">
+<td colspan="18" rowspan="4" class="s1">yukarıda yazılı yalnız</td>
+<td rowspan="6" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="20" rowspan="2" class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="5" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="37" class="s13" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="57" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:7px;">
+<td colspan="18" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="12" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="3" rowspan="4" class="s9">m</td>
+<td colspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:14px;">
+<td colspan="11" rowspan="4" class="s1">ödeyeceği</td>
+<td rowspan="5" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="10" rowspan="4" class="s1">Bedeli</td>
+<td colspan="9" rowspan="5" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="8" rowspan="4" class="s1">alınmıştır.</td>
+<td rowspan="5" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="37" rowspan="4" class="s1">İş bu senet vadesinde ödenmediği taktirde</td>
+<td rowspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td rowspan="2" class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+</tr>
+<tr style="height:3px;">
+<td colspan="4" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="10" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="37" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:16px;">
+<td colspan="55" rowspan="2" class="s1">müteakip senetlerinde muacceliyet kesbedeceğini, ihtilaf vukuunda</td>
+<td colspan="2" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="23" rowspan="2" class="s14">FIRMA İLCE</td>
+<td colspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="7" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="55" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="24" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:14px;">
+<td colspan="38" rowspan="3" class="s1">Mahkemelerinin selahiyetini şimdiden kabul eyler</td>
+<td colspan="2" rowspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="11" rowspan="3" class="s9">im</td>
+<td colspan="2" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="6" class="s1">Okudu</td>
+<td colspan="22" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="5" rowspan="2" class="s1" style="font-size:1px;">&nbsp;</td>
+<td colspan="7" class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="16" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td class="s2" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td class="s1" style="font-size:1px;">&nbsp;</td>
+<td colspan="6" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="38" rowspan="7" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="12" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="6" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="7" rowspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="20" rowspan="3" class="s12">Düzenlenme Tarihi :</td>
+<td colspan="14" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:19px;">
+<td colspan="2" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="14" class="s16">26.02.2024</td>
+</tr>
+<tr style="height:3px;">
+<td colspan="14" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:4px;">
+<td colspan="20" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:3px;">
+<td colspan="7" rowspan="7" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="18" class="s12">Düzenlenme Yeri :</td>
+<td colspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:3px;">
+<td colspan="17" rowspan="5" class="s12" style="font-size:1px;">&nbsp;</td>
+<td colspan="12" rowspan="4" class="s12">FIRMA İLCE</td>
+</tr>
+<tr style="height:4px;">
+<td colspan="6" rowspan="7" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="27" class="s17" style="font-size:1px;">&nbsp;</td>
+<td colspan="31" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td colspan="19" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="3" class="s14">Aasd DASd</td>
+<td rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:6px;">
+<td colspan="3" rowspan="27" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="3" rowspan="3" class="s18">İsim:</td>
+<td colspan="13" rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td class="s12" style="font-size:1px;">&nbsp;</td>
+<td colspan="11" rowspan="14" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:8px;">
+<td colspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="18" rowspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:5px;">
+<td colspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="25" rowspan="5" class="s14">-</td>
+<td colspan="3" rowspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:18px;">
+<td colspan="4" rowspan="2" class="s18">Adres:</td>
+<td colspan="12" rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="4" rowspan="22" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td rowspan="13" class="s15" style="font-size:1px;"><img src="CekYazdir.CDA406A8F5A97C9F.png" alt=""/></td>
+<td rowspan="22" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="4" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+</tr>
+<tr style="height:15px;">
+<td colspan="12" rowspan="2" class="s18">T.C. Kimlik No:</td>
+<td colspan="4" rowspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="24" class="s14">12312312312</td>
+<td rowspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:4px;">
+<td colspan="24" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="12" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="24" rowspan="2" class="s14" style="font-size:1px;">&nbsp;</td>
+</tr>
+<tr style="height:15px;">
+<td colspan="10" rowspan="2" class="s18">Telefon No:</td>
+<td colspan="2" rowspan="4" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:4px;">
+<td colspan="24" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:18px;">
+<td rowspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="10" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="11" rowspan="2" class="s1">keefil 1</td>
+<td colspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="2" class="s1">keefil2</td>
+<td colspan="8" rowspan="12" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:15px;">
+<td colspan="11" rowspan="3" class="s18">İsim :</td>
+<td rowspan="5" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="6" rowspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="17" rowspan="3" class="s18">İsim :</td>
+<td colspan="2" rowspan="8" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="11" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td rowspan="9" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="11" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="17" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:1px;">
+<td colspan="11" rowspan="2" class="s1">tc1</td>
+<td colspan="13" rowspan="2" class="s1">tc2</td>
+</tr>
+<tr style="height:15px;">
+<td colspan="13" rowspan="2" class="s18">T.C. Kimlik No:</td>
+<td colspan="3" rowspan="6" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="17" rowspan="2" class="s18">T.C. Kimlik No:</td>
+</tr>
+<tr style="height:4px;">
+<td colspan="11" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:9px;">
+<td colspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="17" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:13px;">
+<td colspan="13" rowspan="3" class="s18">Telefon No:</td>
+<td colspan="11" rowspan="2" class="s1">tel1</td>
+<td colspan="18" rowspan="3" class="s18">Telefon No:</td>
+<td rowspan="3" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" rowspan="2" class="s1">teö2</td>
+</tr>
+<tr style="height:3px;">
+<td rowspan="2" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+<tr style="height:3px;">
+<td colspan="11" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+<td colspan="13" class="s19" style="font-size:1px;" nowrap >&nbsp;</td>
+</tr>
+</table>
+</body>
+</html>

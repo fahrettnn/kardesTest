@@ -1,0 +1,23 @@
+{
+    "plugin_settings": 
+    {
+      "name":"Customer Manager Plugin",
+      "id":"customer-manager",
+      "version":"1.0.0",
+      "active":true,
+      "index":1,
+      "routes":
+      {
+        "on":["all"],
+        "off":["auth","404","login","logout","reset-password"]
+      },
+      "dependencies": {},
+      "thumbnail":"thumbnail.jpg"
+    },
+    "developer":
+    {
+      "author":"Lovesta Inc",
+      "author_email":"info@lov-esta.com",
+      "author_website":"https://www.lov-esta.com"
+    }
+}

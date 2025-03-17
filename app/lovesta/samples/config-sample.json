@@ -1,0 +1,25 @@
+{
+    "plugin_settings": 
+    {
+      "name":"New Plugin",
+      "id":"new-plugin",
+      "version":"1.0.0",
+      "active":true,
+      "index":1,
+      "routes":
+      {
+        "on":["all"],
+        "off":[]
+      },
+      "dependencies": {
+        "dependenci-plugin": "1.0.0"
+      },
+      "thumbnail":"thumbnail.jpg"
+    },
+    "developer":
+    {
+      "author":"Lovesta Inc",
+      "author_email":"info@lov-esta.com",
+      "author_website":"https://www.lov-esta.com"
+    }
+}

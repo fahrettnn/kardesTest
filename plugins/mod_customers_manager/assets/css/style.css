@@ -1,0 +1,11 @@
+/** Eklentinizin Css kodunu buraya koyun! (Türkçe) **/
+/** Put the Css code for your plugin here! (English) **/
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
